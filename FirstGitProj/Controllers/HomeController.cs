@@ -22,6 +22,10 @@ namespace FirstGitProj.Controllers
         {
             return View();
         }
+        public IActionResult NeerajAction()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
